@@ -1,0 +1,79 @@
+form {
+    display: grid;
+    margin: 0 15%;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.589);
+
+}
+
+.mat-card-header {
+    text-align: center;
+}
+
+.mat-form-field {
+    margin-bottom: 13px;
+}
+
+.mat-card-header .mat-card-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0b010f;
+}
+
+.mat-card>.mat-card-actions:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+button#Aceptar {
+    margin-left: 25%;
+    border-radius: 20px;
+    padding: 5px 0px;
+    font-size: 18px;
+    width: 50%;
+}
+
+.mat-card-header .mat-card-subtitle {
+    font-size: 16px;
+}
+
+.mat-card-content
+    {
+    font-size: 20px;
+}
+
+.mat-card-header::ng-deep .mat-card-header-text {
+    margin: 0 8px;
+    width: 100%;
+}
+
+#ejemplo {
+    width: 50%;
+}
+
+@media all and (max-width:768px) {
+    .mat-card-content{
+        font-size: 14px;
+    }
+
+    .mat-card-header .mat-card-subtitle {
+        font-size: 12px;
+    }
+
+    .mat-card-header .mat-card-title {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    button#aceptar {
+        font-size: 12px;
+        padding: 0;
+    }
+}
+   
